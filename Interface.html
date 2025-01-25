@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Простой интерфейс</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        input[type="text"] {
+            padding: 10px;
+            width: 200px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 15px;
+            color: white;
+            background-color: #28a745;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .output {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Простой интерфейс</h1>
+    <input type="text" id="inputText" placeholder="Введите текст здесь...">
+    <button onclick="displayText()">Показать текст</button>
+
+    <div class="output" id="outputText"></div>
+
+    <script>
+        function displayText() {
+            const inputField = document.getElementById('inputText');
+            const outputDiv = document.getElementById('outputText');
+            outputDiv.textContent = inputField.value ? `Вы ввели: ${inputField.value}` : "Пожалуйста, введите текст.";
+            inputField.value = ''; // Очистить поле ввода после нажатия кнопки
+        }
+    </script>
+
+</body>
+</html>
