@@ -1,3 +1,5 @@
+![WOW_11p0_TWW_EarlyAccessBanners_ProductAssetGallery-Logos-v1_1920x1080_APAC_JL02](https://github.com/user-attachments/assets/1fd75e1d-4b86-40af-b72f-0fe88e779632)
+
 # 🕹️ WoW Resource Gathering Bot
 
 ## 📖 Overview
